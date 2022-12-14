@@ -5,39 +5,70 @@
     <meta charset="utf-8">
     <style>
       /* GLOBAL STYLES */
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 7vw;
+        margin-top: 0;
+      }
       a {
-        color:red;
+        color: #f00;
+      }
+      h2 {
+        font-size: 30px;
       }
 
-      /* SOCIAL STYLES */
-      .social-link{
-        color: blue;
+      /* HERO STYLES */
+      .full-hero {
+        background-color: #c7dbfc;
+        height: 50vw;
       }
+
+      /* SOCIAL STYLES */ 
+       .social-link {
+        background-color: rgba(150, 150, 150, 0.5); color: #00f;
+       }
 
       /* BIO STYLES */
-      .bio-box{
+      .bio-wrapper {
+      font-size: 24px;
+      } 
+      .bio-box {
         border: 1px solid black;
+        width: 50%;
+        font-size: 1em;
       }
-      .bio-copy a{
-        color: green;
+      .bio-box h3 {
+        font-size: 1.5em;
+        }
+      .bio-copy a {
+        color: #080;
+      }
+      .bio-copy {
+        font-size: 1rem;
       }
 
     </style>
   </head>
   <body>
+    <div class="full-hero hero-home">
     <h1>I'm an h1</h1>
     <ul>
       <li>
-        <a href="https://example.com/">Link</a>
+        <a href="https://example.com/" class="social-link">Link</a>
       </li>
       <li>
-        <a href="https://example.com/">Link</a>
+        <a href="https://example.com/" class="social-link">Link</a>
       </li>
       <li>
-        <a href="https://example.com/">Link</a>
+        <a href="https://example.com/" class="social-link">Link</a>
       </li>
-    </ul>
+    </ul> 
+  </div>
     <h2>I'm an h2</h2>
+    <div class="bio-wrapper">
     <div class="bio-box">
       <h3>Michael Hartl</h3>
 
@@ -73,12 +104,15 @@
       </p>
     </div>
     </div>
-    <div class="bio-box alert">
+    <div class="bio-box">
       <h3>??</h3>
+      <div class="bio-copy">
       <p>
         The Future
       </p>
       <a href="https://example.com/">here</a>
+    </div>
+    </div>
     </div>
   </body>
 </html>-
