@@ -23,64 +23,93 @@
       /* HERO STYLES */
       .full-hero {
         background-color: #c7dbfc;
-        height: 50vw;
+        height: 50vh;
       }
 
       /* SOCIAL STYLES */ 
        .social-link {
         background-color: rgba(150, 150, 150, 0.5); color: #00f;
+        display: inline-block;
+        height: 36px;
+        width: 36px; 
+       }
+       .social-list {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+       }
+       .social-list > li {
+        display: inline-block;
        }
 
       /* BIO STYLES */
       .bio-wrapper {
-      font-size: 24px;
+        font-size: 24px;
+        margin: auto;
+        max-width: 1440px;
+        overflow: hidden;
       } 
       .bio-box {
         border: 1px solid black;
-        width: 50%;
-        font-size: 1em;
+        box-sizing: border-box;
+        float: left;
+        font-size: 1rem;
+        margin: 40px 1% 0;
+        padding: 2%;
+        width: 23%; 
+      }
+      .bio-box img {
+        width: 100%;
       }
       .bio-box h3 {
         font-size: 1.5em;
+        color: #000;
+        margin: -40px 0 1em;
+        text-align: center;
         }
+        .bio-copy {
+        font-size: 1em;
+      }
       .bio-copy a {
         color: #080;
+        padding: 20px;
       }
-      .bio-copy {
-        font-size: 1rem;
-      }
-
     </style>
   </head>
   <body>
     <div class="full-hero hero-home">
     <h1>I'm an h1</h1>
-    <ul>
+    <ul class="social-list">
       <li>
-        <a href="https://example.com/" class="social-link">Link</a>
+        <a href="https://example.com/" class="social-link">Link 1</a>
       </li>
       <li>
-        <a href="https://example.com/" class="social-link">Link</a>
+        <a href="https://example.com/" class="social-link">Link 2</a>
       </li>
       <li>
-        <a href="https://example.com/" class="social-link">Link</a>
+        <a href="https://example.com/" class="social-link">Link 3</a>
       </li>
     </ul> 
   </div>
     <h2>I'm an h2</h2>
+
     <div class="bio-wrapper">
     <div class="bio-box">
+      <img src="https://placekitten.com/g/400/400">
       <h3>Michael Hartl</h3>
 
       <a href="https://twitter.com/mhartl" class="social-link">here</a>
       <div class="bio-copy">
       <p>
         Known for his dazzling charm, rapier wit, and unrivaled humility, Michael is the creator of the
-        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> and principal author of the <a href="https://learnenough.com/"> Learn Enough to Be Dangerous</a> introductory sequence. Michael is also notorious as the founder of <a href="http://tauday.com/">Tau Day</a> and author of <a href="http://tauday.com/tau-manifesto"><em>The Tau Manifesto</em></a>, but rumours that he's secretly a supervillain are slightly exaggerated.
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> and principal author of the <a href="https://learnenough.com/"> Learn Enough to Be Dangerous</a> introductory sequence.<br><br>
+         Michael is also notorious as the founder of <a href="http://tauday.com/">Tau Day</a> and author of <a href="http://tauday.com/tau-manifesto"><em>The Tau Manifesto</em></a>, but rumours that he's secretly a supervillain are slightly exaggerated.
       </p>
+
     </div>
     </div>
     <div class="bio-box">
+      <img src="https://placekitten.com/g/400/400">
       <h3>Lee Donahoe</h3>
       <a href="https://twitter.com/leedonahoe" class="social-link">here</a>
       <div class="bio-copy">
@@ -93,6 +122,7 @@
     </div>
     </div>
     <div class="bio-box">
+      <img src="https://placekitten.com/g/400/400">
       <h3>Nick Merwin</h3>
       <a href="https://twitter.com/nickmerwin" class="social-link">here</a>
       <div class="bio-copy">
@@ -105,6 +135,7 @@
     </div>
     </div>
     <div class="bio-box">
+      <img src="https://placekitten.com/g/400/400">
       <h3>??</h3>
       <div class="bio-copy">
       <p>
@@ -114,5 +145,33 @@
     </div>
     </div>
     </div>
+
+      <p>
+        Learn Enough to Be Dangerous is a leader in the movement to teach the
+        world <em>technical sophistication</em>, which includes both "hard
+        skills" like coding, command lines, and version control, and "soft
+        skills" like guessing keyboard shortcuts, Googling error messages, and
+        knowing when to just reboot the darn thing.
+      </p>
+      <p>
+        We believe there are <strong>at least a billion people</strong> who can
+        benefit from learning technical sophistication, probably more. To join
+        our movement,
+        <a href="https://learnenough.com/#email_list">sign up for our official
+        email list</a> now.
+      </p>
+      <h3>Background</h3>
+      <p>
+        Learn Enough to Be Dangerous is an outgrowth of the
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> and the
+        <a href="https://www.softcover.io/">Softcover publishing platform</a>.
+        This page is part of the sample site for
+        <a href="https://learnenough.com/css-tutorial"><em>Learn Enough CSS and
+        Layout to Be Dangerous</em></a>, which teaches the basics of
+        <strong>C</strong>ascading <strong>S</strong>tyle
+        <strong>S</strong>heets, the language that allows web pages to be styled.
+        Other related tutorials can be found at
+        <a href="https://learnenough.com/">learnenough.com</a>.
+      </p>
   </body>
 </html>-
