@@ -8,39 +8,51 @@
       html, body {
         margin: 0;
         padding: 0;
-      }
+  }
       h1 {
         font-size: 7vw;
         margin-top: 0;
-      }
+  }
       a {
         color: #f00;
-      }
+  }
       h2 {
         font-size: 30px;
-      }
+  }
 
       /* HERO STYLES */
       .full-hero {
         background-color: #c7dbfc;
         height: 50vh;
-      }
+  }
 
       /* SOCIAL STYLES */ 
        .social-link {
-        background-color: rgba(150, 150, 150, 0.5); color: #00f;
+        background-color: rgba(150, 150, 150, 0.5);
+        border-radius: 99px;
+        box-sizing: border-box;
+        color: #00f;
         display: inline-block;
-        height: 36px;
-        width: 36px; 
-       }
+        font-family: helvetica, arial, sans;
+        font-size: 1rem;
+        font-weight: bold;
+        height: 2.5em;
+        line-height: 1;
+        padding-top: 0.85em;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        width: 2.5em;
+  }
        .social-list {
         list-style: none;
         padding: 0;
         text-align: center;
-       }
+  }
        .social-list > li {
         display: inline-block;
-       }
+        margin: 0 0.5em;
+  }
 
       /* BIO STYLES */
       .bio-wrapper {
@@ -48,32 +60,33 @@
         margin: auto;
         max-width: 1440px;
         overflow: hidden;
-      } 
+  } 
       .bio-box {
-        border: 1px solid black;
+        border: 1px solid #000;
+        border-color: transparent black black transparent;
         box-sizing: border-box;
         float: left;
         font-size: 1rem;
         margin: 40px 1% 0;
-        padding: 2%;
-        width: 23%; 
-      }
+        padding: 0 2% 2%;
+        width: 23%;
+  }
       .bio-box img {
         width: 100%;
-      }
+  }
       .bio-box h3 {
-        font-size: 1.5em;
         color: #000;
+        font-size: 1.5em;
         margin: -40px 0 1em;
         text-align: center;
-        }
+  }
         .bio-copy {
         font-size: 1em;
-      }
+        line-height: 1.5;
+  }
       .bio-copy a {
         color: #080;
-        padding: 20px;
-      }
+  }
     </style>
   </head>
   <body>
@@ -81,13 +94,13 @@
     <h1>I'm an h1</h1>
     <ul class="social-list">
       <li>
-        <a href="https://example.com/" class="social-link">Link 1</a>
+        <a href="https://example.com/" class="social-link">Fb</a>
       </li>
       <li>
-        <a href="https://example.com/" class="social-link">Link 2</a>
+        <a href="https://example.com/" class="social-link">Tw</a>
       </li>
       <li>
-        <a href="https://example.com/" class="social-link">Link 3</a>
+        <a href="https://example.com/" class="social-link">Gh</a>
       </li>
     </ul> 
   </div>
@@ -98,7 +111,7 @@
       <img src="https://placekitten.com/g/400/400">
       <h3>Michael Hartl</h3>
 
-      <a href="https://twitter.com/mhartl" class="social-link">here</a>
+      <a href="https://twitter.com/mhartl" class="social-link">Tw</a>
       <div class="bio-copy">
       <p>
         Known for his dazzling charm, rapier wit, and unrivaled humility, Michael is the creator of the
@@ -111,7 +124,7 @@
     <div class="bio-box">
       <img src="https://placekitten.com/g/400/400">
       <h3>Lee Donahoe</h3>
-      <a href="https://twitter.com/leedonahoe" class="social-link">here</a>
+      <a href="https://twitter.com/leedonahoe" class="social-link">Tw</a>
       <div class="bio-copy">
       <p>
         When he's not literally swimming with sharks or hunting powder stashes on
@@ -124,7 +137,7 @@
     <div class="bio-box">
       <img src="https://placekitten.com/g/400/400">
       <h3>Nick Merwin</h3>
-      <a href="https://twitter.com/nickmerwin" class="social-link">here</a>
+      <a href="https://twitter.com/nickmerwin" class="social-link">Tw</a>
       <div class="bio-copy">
       <p>
         You may have seen him shredding guitar live with Capital Cities on Jimmy
