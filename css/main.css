@@ -168,7 +168,7 @@ h4 {
   width: 85vw;
 }
 .page h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-bottom: 1em;
   text-align: center;
 }
@@ -469,7 +469,7 @@ h4 {
     padding-left: 0.25em;
   }
   .nav-links a {
-    font-size: 3.25vw;
+    font-size: 2.8vw;
   }
   .header-logo {
     height: 8.9vh;
@@ -518,6 +518,16 @@ h4 {
   }
 
    /* BLOG STYLES */
+   .blog-cols {
+    flex-direction: column;
+   }
+   .blog-recent {
+    flex: 1;
+    text-align: center;
+   }
+   .blog-previews {
+    padding: 0;
+   }
    .post-aside {
      display: none;
    }
