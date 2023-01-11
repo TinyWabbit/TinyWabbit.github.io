@@ -136,7 +136,7 @@ h4 {
 }
 .col {
   box-sizing: border-box;
-  padding: 2em;
+  padding: 3.5em;
 }
 .col-three .col ~ .col {
   border-left: 1px solid rgba(0, 0, 0, 0.1);
@@ -336,7 +336,7 @@ h4 {
 
 /* GALLERY STYLES */
 .gallery-info {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .gallery-info h3 {
   margin-bottom: 1em;
@@ -345,7 +345,7 @@ h4 {
   position: relative;
 }
 .gallery-photo img {
-  width: 100%;
+  width: 98%;
 }
 .gallery-thumbs {
   height: 90vh;
