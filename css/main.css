@@ -662,7 +662,7 @@ h4 {
   .gallery-thumbs > div {
     box-sizing: border-box;
     display: inline-block;
-    padding-top: 1em;
+    padding-top: 2em;
   }
   .gallery-thumbs img {
     height: 6.5vh;
