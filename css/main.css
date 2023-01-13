@@ -571,12 +571,12 @@ h4 {
 
   /* MOBILE MENU */
   .full-hero {
-    height: 83vh;
+    height: 80vh;
   }
   .full-hero:after {
     border: 12px solid;
     border-color: #fff transparent transparent;
-    bottom: 11vh;
+    bottom: 12vh;
     color: #fff;
     content: "";
     height: 0;
