@@ -571,8 +571,21 @@ h4 {
 
   /* MOBILE MENU */
   .full-hero {
-    height: 81vh;
+    height: 83vh;
   }
+  .full-hero:after {
+    border: 12px solid;
+    border-color: #fff transparent transparent;
+    bottom: 11vh;
+    color: #fff;
+    content: "";
+    height: 0;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: 0;
+  }
+  
   .show-mobile-menu {
     display: block;
     float: right;
