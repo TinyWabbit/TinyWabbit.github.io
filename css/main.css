@@ -580,7 +580,7 @@ h4 {
   .full-hero:after {
     border: 12px solid;
     border-color: #fff transparent transparent;
-    bottom: 10vh;
+    bottom: 4vh;
     color: #fff;
     content: "";
     height: 0;
