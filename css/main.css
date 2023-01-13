@@ -571,12 +571,16 @@ h4 {
 
   /* MOBILE MENU */
   .full-hero {
+    background-color: #c7dbfc;
+    background-size: cover;
+    box-sizing: border-box;
     height: 80vh;
+    padding-top: 15vh;
   }
   .full-hero:after {
     border: 12px solid;
     border-color: #fff transparent transparent;
-    bottom: 12vh;
+    bottom: 10vh;
     color: #fff;
     content: "";
     height: 0;
@@ -585,7 +589,6 @@ h4 {
     transform: translate(-50%, 0);
     width: 0;
   }
-  
   .show-mobile-menu {
     display: block;
     float: right;
